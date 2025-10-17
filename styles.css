@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     color: white;
     text-align: center;
     padding: 4rem 0;
@@ -35,7 +35,7 @@ header p {
 }
 
 .hero {
-    background: #f8f9ff;
+    background: #f8fafc;
     padding: 5rem 0;
     text-align: center;
 }
@@ -43,33 +43,34 @@ header p {
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #2c3e50;
+    color: #1e293b;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #666;
-    max-width: 600px;
+    color: #64748b;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.8;
 }
 
 .cta-button {
     display: inline-block;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: #3b82f6;
     color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 8px;
     font-weight: 600;
-    font-size: 1.1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+    transition: all 0.2s ease;
 }
 
 .cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+    background: #2563eb;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 .services {
@@ -81,7 +82,7 @@ header p {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #1e293b;
 }
 
 .services-grid {
@@ -91,47 +92,50 @@ header p {
 }
 
 .service-card {
-    background: #f8f9ff;
+    background: white;
     padding: 2rem;
-    border-radius: 15px;
-    border: 1px solid #e1e8ff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
 }
 
 .service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-color: #cbd5e1;
 }
 
 .service-card h3 {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
-    color: #667eea;
+    color: #1e293b;
     font-weight: 600;
 }
 
 .service-card p {
-    color: #666;
+    color: #64748b;
     line-height: 1.7;
+    font-size: 0.95rem;
 }
 
 .pricing {
     padding: 5rem 0;
-    background: #f8f9ff;
+    background: #f8fafc;
 }
 
 .pricing h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #1e293b;
 }
 
 .pricing-table {
     overflow-x: auto;
     background: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
 }
 
 .pricing-table table {
@@ -141,30 +145,30 @@ header p {
 }
 
 .pricing-table th {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #1e293b;
     color: white;
-    padding: 1.5rem 1rem;
+    padding: 1.2rem 1rem;
     text-align: center;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .pricing-table th:first-child {
     text-align: left;
-    background: #2c3e50;
+    background: #0f172a;
 }
 
 .pricing-table td {
-    padding: 1.2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #f1f5f9;
 }
 
 .pricing-table td:first-child {
     text-align: left;
     font-weight: 500;
-    background: #f8f9ff;
-    color: #2c3e50;
+    background: #f8fafc;
+    color: #1e293b;
 }
 
 .pricing-table tr:last-child td {
@@ -192,27 +196,30 @@ header p {
 .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #2c3e50;
+    color: #1e293b;
 }
 
 .contact p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #666;
+    color: #64748b;
 }
 
 .contact-info {
-    background: #f8f9ff;
-    padding: 2rem;
-    border-radius: 15px;
-    margin: 2rem 0;
-    display: inline-block;
+    background: #f8fafc;
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 600px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
 }
 
 .contact-info p {
-    margin-bottom: 0.5rem;
-    color: #667eea;
-    font-weight: 500;
+    margin-bottom: 0.75rem;
+    color: #475569;
+    font-weight: 400;
+    font-size: 0.95rem;
 }
 
 .contact-info p:last-child {
@@ -220,14 +227,19 @@ header p {
 }
 
 footer {
-    background: #2c3e50;
+    background: #0f172a;
     color: white;
     text-align: center;
-    padding: 2rem 0;
+    padding: 2.5rem 0;
 }
 
 footer p {
     opacity: 0.8;
+    margin-bottom: 0.5rem;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
